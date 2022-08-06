@@ -15,7 +15,7 @@
                     "User Message: $message.\n";
 
 
-    $to = "avinash6252@gmail.com";
+    $to = "yash12628@gmail.com";
 
     $headers = "From: $email_from \r\n";
 
