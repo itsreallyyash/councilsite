@@ -121,7 +121,7 @@ nav .fa{
         font-size: 20px;
     }
     .row{
-        flex-direction: column;
+        display: flex;
     }
     .about-col p{
         font-size: 12px;
@@ -184,6 +184,12 @@ h1{
     justify-content: center; 
    
 }
+.row6{
+    margin-top: 5%;
+    display: flexbox;
+    justify-content: center; 
+   
+}
 .course-col{
     flex-basis: 31%;
     background: #5858585f;
@@ -239,7 +245,13 @@ h3{
     }
 } 
 
-
+.campus-co2{
+    flex-basis: 64%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
 /*---------------- campus ----------------*/
 
 .campus{
