@@ -228,6 +228,10 @@ h3{
         flex-direction: column;
         margin: auto;
     }
+    .row6{
+        flex-direction: column;
+        margin: auto;
+    }
     .row2{
         flex-direction: column;
         margin: auto;
@@ -527,6 +531,9 @@ h3{
 }
 .about-col img{
     width: 100%;
+    float: right;
+    margin: 5px;
+    
 }
 
 /*---------- Blog Page -------------*/
