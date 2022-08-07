@@ -192,13 +192,13 @@ h1{
 }
 .course-col{
     flex-basis: 31%;
-    background: #5858585f;
+    background: #0a0e1e;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: .5s;
-    outline-color: #0a0e1e;
+    outline-color: #1f1f20d0;
 }
 .course-col h1{
     font-size: 14px;
@@ -210,13 +210,14 @@ h1{
 .course-col p{
     text-align: center;
     text-transform: capitalize;
+    color: white;
 }
 
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-    color: #000;
+    color: #fff;
     font-size: large;
 }
 .course-col:hover{
