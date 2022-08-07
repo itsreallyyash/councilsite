@@ -198,12 +198,12 @@ h1{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: .5s;
-    outline-color: #f0f0f0;
+    outline-color: #0a0e1e;
 }
 .course-col h1{
     font-size: 14px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: underline;
     text-align: center;
 }
