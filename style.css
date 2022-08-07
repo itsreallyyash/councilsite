@@ -122,6 +122,7 @@ nav .fa{
     }
     .row{
         display: flex;
+        justify-content: space-evenly;
     }
     .about-col p{
         font-size: 12px;
