@@ -136,6 +136,29 @@
 </script> 
     
 </body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCPPt4oaJwB2tGO35Ia9-5kPUlEPhTUjLI",
+      authDomain: "councilwebsite-913db.firebaseapp.com",
+      projectId: "councilwebsite-913db",
+      storageBucket: "councilwebsite-913db.appspot.com",
+      messagingSenderId: "584818809679",
+      appId: "1:584818809679:web:24908544d33d749e5d033a",
+      measurementId: "G-FEV6NCL3ME"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
 
 
