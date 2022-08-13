@@ -159,8 +159,8 @@ h1{
  
 }
 .row5{
-    display: inline-flex;
-    justify-content: space-between; 
+    display:flex;
+    justify-content: space-evenly; 
  
 }
 .row3{
