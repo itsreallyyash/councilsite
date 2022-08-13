@@ -229,10 +229,12 @@ h3{
     .row5{
         flex-direction: column;
         margin: auto;
+        width: 70%;
     }
     .row6{
         flex-direction: column;
         margin: auto;
+        width: 100%;
     }
     .row2{
         flex-direction: column;
@@ -257,6 +259,12 @@ h3{
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+}
+.campus2{
+  
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 /*---------------- campus ----------------*/
 
