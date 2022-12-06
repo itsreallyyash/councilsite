@@ -82,7 +82,25 @@ nav .fa{
     cursor: pointer;
     transition: 1s;
 }
-
+.container1 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .comms {
+    max-width: 20%
+  }
+  
+  .image1 {
+    flex-basis: 40%
+  }
+  
+  .text1 {
+    font-size: 20px;
+    padding-left: 20px;
+  }
 .hero-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
@@ -91,6 +109,25 @@ nav .fa{
 
 @media(max-width: 700px)
 {
+    .container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      
+      .comms {
+        max-width: 100%
+      }
+      
+      .image1 {
+        flex-basis: 40%
+      }
+      
+      .text1 {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
     .image{
         display: none;
     }
