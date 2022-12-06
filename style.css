@@ -91,6 +91,12 @@ nav .fa{
 
 @media(max-width: 700px)
 {
+    .image{
+        display: none;
+    }
+    .about-col{
+        display: none;
+    }
    .nav-links ul li
     {
         display: block;
@@ -487,7 +493,8 @@ h3{
     background-color: #000;
 }
 .about-us{
-    padding-left: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
 
     padding-top: 10px;
     padding-bottom: 50px;
@@ -518,6 +525,20 @@ h3{
     text-align: justify;
 }
 .about-col p{
+    padding: 15px 0 25px;
+    color: #fff;
+    text-align: justify;
+}
+.about-col2{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col2 h1{
+    padding-top: 0;
+    color: white;
+    text-align: justify;
+}
+.about-col2 p{
     padding: 15px 0 25px;
     color: #fff;
     text-align: justify;
