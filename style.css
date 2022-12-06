@@ -83,14 +83,15 @@ nav .fa{
     transition: 1s;
 }
 .container1 {
-    display: inline-block;
+    display: flexbox;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    text-align: center;
+    margin-left:10px ;
   }
   
   .comms {
-    max-width: 20%
+    max-width: 12%
   }
   
   .image1 {
@@ -116,7 +117,7 @@ nav .fa{
       }
       
       .comms {
-        max-width: 100%
+        max-width: 70%
       }
       
       .image1 {
