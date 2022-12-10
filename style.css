@@ -82,7 +82,26 @@ nav .fa{
     cursor: pointer;
     transition: 1s;
 }
-
+.container1 {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left:10px ;
+  }
+  
+  .comms {
+    max-width: 12%
+  }
+  
+  .image1 {
+    flex-basis: 40%
+  }
+  
+  .text1 {
+    font-size: 20px;
+    padding-left: 20px;
+  }
 .hero-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
@@ -91,6 +110,31 @@ nav .fa{
 
 @media(max-width: 700px)
 {
+    .container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      
+      .comms {
+        max-width: 70%
+      }
+      
+      .image1 {
+        flex-basis: 40%
+      }
+      
+      .text1 {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
+    .image{
+        display: none;
+    }
+    .about-col{
+        display: none;
+    }
    .nav-links ul li
     {
         display: block;
@@ -487,7 +531,8 @@ h3{
     background-color: #000;
 }
 .about-us{
-    padding-left: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
 
     padding-top: 10px;
     padding-bottom: 50px;
@@ -518,6 +563,20 @@ h3{
     text-align: justify;
 }
 .about-col p{
+    padding: 15px 0 25px;
+    color: #fff;
+    text-align: justify;
+}
+.about-col2{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col2 h1{
+    padding-top: 0;
+    color: white;
+    text-align: justify;
+}
+.about-col2 p{
     padding: 15px 0 25px;
     color: #fff;
     text-align: justify;
