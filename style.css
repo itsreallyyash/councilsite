@@ -2,52 +2,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
 }
 .header{
     min-height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)); */
-    /* background:url(images/banner.png); */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
     overflow: hidden;
-    background-color: #452543;
 }
-.video-background{
-position: absolute;
-right: 0;
-bottom:0;
-z-index: -1;
-width: 1920px;
-}
-#overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
 
 nav{
-    position: absolute;
-    width: 90%;
-    top:0;
-    left:0;
     display: flex;
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
-}
-header h1{
- padding-top: 20px;
 }
 nav img{
     width: 135px;
@@ -204,7 +174,6 @@ nav .fa{
     .row{
         display: flex;
         justify-content: space-evenly;
-        background-color: #452543;
     }
     .about-col p{
         font-size: 12px;
@@ -355,9 +324,6 @@ h3{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-.campus-texts{
-    padding-bottom: 100px;
 }
 .campus-col{
     flex-basis: 32%;
@@ -554,26 +520,22 @@ h3{
     background-size: cover;
     text-align: center;
     color: #fff;
-    background-color: #452543;
 }
 .sub-header h1{
     margin-top: 0;
-    padding-top: 200px;
-
-     
 }
 .about-us1{
     padding-left: 8%;
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #452543;
+    background-color: #fff;
 
 }
 .about-us2{
-    padding-top: 10px;
+        padding-top: 10px;
     padding-bottom: 50px;
-    background-color:#452543;
+    background-color: #000;
 }
 .about-us{
     padding-left: 5%;
@@ -581,89 +543,76 @@ h3{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #452543;
+    background-color: #000;
 
 }
 .about-col1{
     flex-basis: 48%;
     padding: 30px 2px;
-    background-color: #452543;
 }
 .about-col1 h1{
     padding-top: 0;
     color: #000;
     text-align: justify;
-    background-color: #452543;
 }
 .about-col1 p{
     padding: 15px 0 25px;
     color: #000;
     text-align: justify;
-    background-color: #452543;
 }
 .about-col{
     flex-basis: 48%;
     padding: 30px 2px;
-    background-color: #452543;
 }
 .about-col h1{
     padding-top: 0;
-    color:#452543;;
+    color: white;
     text-align: justify;
 }
 .about-col p{
     padding: 15px 0 25px;
     color: #fff;
     text-align: justify;
-    background-color: #452543;
 }
 .about-col2{
     flex-basis: 48%;
     padding: 30px 2px;
-    background-color: #452543;
 }
 .about-col2 h1{
     padding-top: 0;
-    color:  #452543;;
+    color: white;
     text-align: justify;
-    background-color: #452543;
 }
 .about-col2 p{
     padding: 15px 0 25px;
-    color:#452543;
+    color: #fff;
     text-align: left;
-    background-color: #452543;
 }
 
 
 .hero-btn.red-btn{
     border: 1px solid #f44336;
     background: transparent;
-    color: #452543;
-    background-color: #452543;
+    color: #f44336;
 }
 .hero-btn.red-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
     color: #fff;
-    background-color: #452543;
 }
 .hero-btn.red-btn::after{
     background: #f44336;
-
 }
 .hero-btn.red-btn::before{
     background: #f44336;
 }
 .content-image{
     flex-basis: 50%;
-    background-color: #452543;
 }
 .about-col img{
     width: 100%;
     float: right;
     margin: 5px;
-    background-color: #452543;
     
 }
 
@@ -695,7 +644,7 @@ h3{
 
 .blog-right h3{
     background: #f44336;
-    color: #452543 ;
+    color: #fff;
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
@@ -807,7 +756,7 @@ h3{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 0;
-    background-color: #452543;
+    background-color: #fff;
 }
 .campus-col1{
     flex-basis: 32%;
@@ -909,7 +858,7 @@ p{
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding: 5px 8px;
+    padding: 8px 48px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
@@ -939,7 +888,7 @@ p{
   }
   
   .event .event-right .event-timing {
-    background: #452543;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -958,113 +907,7 @@ p{
     padding-right: 8px;
   }
   
-  /* timeline for committees and clubs  */
-  .main-container {
-    padding: 30px;
-    background-color: #452543;
-  }
   
-  /* CARDS */
-  
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .card {
-    margin: 20px;
-    padding: 20px;
-    width: 500px;
-    min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
-    border-radius: 10px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-    transition: all 0.2s;
-  }
-  
-  .card:hover {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-    transform: scale(1.01);
-  }
-  
-  .card__link,
-  .card__exit,
-  .card__icon {
-    position: relative;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
-  }
-  
-  .card__link::after {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    content: "";
-    width: 0%;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.6);
-    transition: all 0.5s;
-  }
-  
-  .card__link:hover::after {
-    width: 100%;
-  }
-  
-  .card__exit {
-    grid-row: 1/2;
-    justify-self: end;
-  }
-  
-  .card__icon {
-    grid-row: 2/3;
-    font-size: 30px;
-  }
-  .main_title{
-    
-    color: #fff;
-  }
-  .card__title {
-    grid-row: 3/4;
-    font-weight: 400;
-    color: #ffffff;
-  }
-  
-  .card__apply {
-    grid-row: 4/5;
-    align-self: center;
-  }
-  
-  /* CARD BACKGROUNDS */
-  
-  .card-1 {
-    background: radial-gradient(#1f3638, #192e3a);
-  }
-  
-  .card-2 {
-    background: radial-gradient(#fbc1cc, #fa99b2);
-  }
-  
-  .card-3 {
-    background: radial-gradient(#76b2fe, #b69efe);
-  }
-  
-  .card-4 {
-    background: radial-gradient(#60efbc, #58d5c9);
-  }
-  
-  .card-5 {
-    background: radial-gradient(#f588d8, #c0a3e5);
-  }
-  
-  /* RESPONSIVE */
-  
-  @media (max-width: 1600px) {
-    .cards {
-      justify-content: center;
-    }
-  }
   
 
 
