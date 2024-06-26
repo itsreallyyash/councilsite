@@ -83,6 +83,7 @@ nav .fa{
     transition: 1s;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container1 {
     display: flexbox;
     align-items: center;
@@ -106,6 +107,9 @@ nav .fa{
 =======
 
 >>>>>>> parent of c4af4c4 (removed hangout changed cq)
+=======
+
+>>>>>>> parent of 1534ced (Merge branch 'main' of https://github.com/itsreallyyash/Council-Website)
 .hero-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
@@ -114,6 +118,7 @@ nav .fa{
 
 @media(max-width: 700px)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     .container1 {
         display: flex;
@@ -142,6 +147,8 @@ nav .fa{
     .about-col{
         display: none;
     }
+=======
+>>>>>>> parent of 1534ced (Merge branch 'main' of https://github.com/itsreallyyash/Council-Website)
    .nav-links ul li
     {
         display: block;
@@ -538,8 +545,7 @@ h3{
     background-color: #000;
 }
 .about-us{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
 
     padding-top: 10px;
     padding-bottom: 50px;
@@ -574,6 +580,7 @@ h3{
     color: #fff;
     text-align: justify;
 }
+<<<<<<< HEAD
 .about-col2{
     flex-basis: 48%;
     padding: 30px 2px;
@@ -588,6 +595,8 @@ h3{
     color: #fff;
     text-align: left;
 }
+=======
+>>>>>>> parent of 1534ced (Merge branch 'main' of https://github.com/itsreallyyash/Council-Website)
 
 
 .hero-btn.red-btn{
