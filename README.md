@@ -50,6 +50,3 @@ You can also follow us on social media:
 
 - **Instagram**: [https://www.instagram.com/students.council.mpstme/](https://www.instagram.com/students.council.mpstme/)
 
----
-
-This version is more organized, making it easier for readers to navigate through the various sections of the README.
